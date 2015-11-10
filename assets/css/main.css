@@ -2706,6 +2706,23 @@
 			background: #fff;
 		}
 
+		.main.style2ish {
+			background-color: #333;
+			color: rgba(255, 255, 255, 0.75);
+			background-attachment: fixed,							fixed;
+			background-image: url("images/overlay1.png"), url("../../images/face.jpg");
+			background-size: auto,							cover;
+		}
+
+		.main.style3ish {
+			background-color: #333;
+			color: rgba(255, 255, 255, 0.75);
+			background-attachment: fixed,							fixed;
+			background-image: url("images/overlay1.png"), url("../../images/study.jpg");
+			background-size: auto,							cover;
+		}
+
+
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
