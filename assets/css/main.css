@@ -2680,7 +2680,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #484848;
+				background-color: rgba(85,85,85, 0.2);
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2710,8 +2710,8 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 								fixed;
-			background-image: url("images/overlay2.png"), url("../../images/face.jpg");
-			background-size: auto,						cover; 
+			background-image: url("images/overlay2.png"), url("../../images/face1.jpg");
+			background-size: contain,					cover;
 		}
 
 		.main.style3ish {
@@ -2722,13 +2722,21 @@
 			background-size: auto,							cover;
 		}
 
+		.main.style4ish {
+			background-color: #333;
+			color: rgba(255, 255, 255, 0.75);
+			background-attachment: fixed,							fixed;
+			background-image: url("images/overlay2.png"), url("../../images/blogpic1.jpg");
+			background-size: auto,							cover;
+		}
 
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/overlay2.png"), url("../../images/footer.jpg");
 			background-size: auto,							cover;
+			padding: 2em 0 4em 0 ;
 		}
 
 			.main.style2 a {
