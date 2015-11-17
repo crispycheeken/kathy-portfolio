@@ -2829,10 +2829,10 @@
 		padding: 9em 0 9em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay1.png"), url("../../images/header_img.jpg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-attachment: fixed,							fixed;
+		background-image: url("images/overlay1.png"), url("../../images/header_img.jpg");
+		background-position: top left,						center center;
+		background-size: auto,							cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
